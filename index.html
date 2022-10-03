@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="Tarun Chawla" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarun Chawla</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-title-line">
+        <p class="header__name">Tarun Chawla</p>
+        <button class="header__menu-button" id="button">
+          <div class="menu-icon"></div>
+        </button>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <section class="filter">
+          <h2 class="hero__greeting center">
+            <span class="nowrap"> 👋 Hi, I am </span>
+            <span class="nowrap"> Tarun Chawla </span>
+          </h2>
+          <figure class="hero__figure">
+            <img src="img/avtar1.jpg" alt="avtar" width="400" height="400" />
+            <figcaption class="offscreen">My avatar</figcaption>
+          </figure>
+        </section>
+      </section>
+
+      <article id="about" class="about">
+        <h2 class="about__h2 center">About</h2>
+        <section class="about__section">
+          <figure>
+            <img src="img/avtar1.jpg" alt="img" width="400" height="400" />
+          </figure>
+          <section class="about__text">
+            <p class="about__info">
+              "I am a student at georgian college toronto, persuing diploma in
+              Computer Programming. I am really interested in technologies and
+              how they are created. I have worked with languages like Python,
+              C/C++ and also made games and other Projects in Python."
+            </p>
+            <a type="download" target="_blank" href="CV.pdf">My CV</a>
+          </section>
+        </section>
+      </article>
+      <article id="skills" class="skills">
+        <h2 class="skills__h2 center">My Skills</h2>
+        <div class="skills__container">
+          <div class="skill">
+            <img src="img/python.PNG" alt="python" width="80" height="80" />
+            <p class="skill__text center">python</p>
+          </div>
+          <div class="skill">
+            <img src="img/html.png" alt="HTML" width="80" height="80" />
+            <p class="skill__text center">HTML</p>
+          </div>
+          <div class="skill">
+            <img src="img/css.png" alt="CSS" width="80" height="80" />
+            <p class="skill__text">CSS</p>
+          </div>
+          <div class="skill">
+            <img src="img/C.png" alt="C and C++" width="80" height="80" />
+            <p class="skill__text">C/C++</p>
+          </div>
+          <div class="skill">
+            <img
+              src="img/potoshop.png"
+              alt="Photoshop"
+              width="80"
+              height="80"
+            />
+            <p class="skill__text">Photoshop</p>
+          </div>
+          <div class="skill">
+            <img
+              src="img/Ml.png"
+              alt="Machine learning"
+              width="80"
+              height="80"
+            />
+            <p class="skill__text">ML</p>
+          </div>
+          <div class="skill">
+            <img src="img/DSA.png" alt="DSA" width="80" height="80" />
+            <p class="skill__text">DSA</p>
+          </div>
+          <div class="skill">
+            <img src="img/SQL.png" alt="SQL" width="80" height="80" />
+            <p class="skill__text">SQL</p>
+          </div>
+        </div>
+      </article>
+
+      <article class="projects" id="projects">
+        <h2 class="center projects__h2">Projects</h2>
+        <div class="projects__container">
+          <div class="projects__card">
+            <img
+              src="img/flappy.jpg"
+              alt="project image"
+              width="300"
+              height="300"
+            />
+            <h3 class="card__h3">Flappy Bird AI</h3>
+            <p class="card__text center">
+              This game is made using
+              <strong>NEAT </strong>(NeuroEvolution of Augmenting Topologies)
+              and pygame. In NEAT the genrations of objects(paddle) get evolve
+              and at the some point the object become nearly perfect.That is the
+              final paddle, In the project.
+            </p>
+            <div class="card__button">
+              <a href="https://youtube.com" target="_blank">Github</a>
+            </div>
+          </div>
+          <div class="projects__card">
+            <img
+              src="img/pong.jpg"
+              alt="project image"
+              width="300"
+              height="300"
+            />
+            <h3 class="card__h3">Pong game with AI</h3>
+            <p class="card__text center">
+              This game is made using
+              <strong>NEAT </strong>(NeuroEvolution of Augmenting Topologies)
+              and pygame. In NEAT the genrations of objects(bird) get evolve and
+              at the some point the last the one of the object becomes
+              perfect.That is the final bird, In the project.
+            </p>
+            <div class="card__button">
+              <a href="https://youtube.com" target="_blank">Github</a>
+            </div>
+          </div>
+          <div class="projects__card">
+            <img
+              src="img/typing.JPG"
+              alt="project image"
+              width="300"
+              height="300"
+            />
+            <h3 class="card__h3">Typing Speed</h3>
+            <p class="card__text center">
+              It is a very basic project created using python curses module. In
+              this user have to write the text written on screen and user typing
+              speed got calculate.
+            </p>
+            <div class="card__button">
+              <a href="https://youtube.com" target="_blank">Github</a>
+            </div>
+          </div>
+          <div class="projects__card">
+            <img
+              src="img/hand.JPG"
+              alt="project image"
+              width="300"
+              height="300"
+            />
+            <h3 class="card__h3">shortest path finder</h3>
+            <p class="card__text center">
+              This program is created using python curses module and it uses
+              <strong>BFS(breath first search)</strong> algorithm to find the
+              shortest path on the grid.
+            </p>
+            <div class="card__button">
+              <a
+                href="https://github.com/Tarun193/Shortest-path-finder"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="contact" id="contact">
+        <h2 class="contact__h2 center">Contant Me 😉</h2>
+        <form action="">
+          <p>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" />
+          </p>
+          <p>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" />
+          </p>
+          <p>
+            <label for="message">Your message</label>
+            <textarea name="message" id="message" rows="10"></textarea>
+          </p>
+          <button type="submit" class="form__submit" formaction="/">
+            Submit
+          </button>
+        </form>
+      </article>
+    </main>
+    <footer class="footer center">
+      <div class="footer__social-media"></div>
+      <p>&copy; Tarun Chawla</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
