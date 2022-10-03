@@ -350,6 +350,7 @@ h2 {
 
 /* Footer */
 .footer {
+    
     font-size: var(--FS-Header);
     padding: 0.75em;
     background-color: var(--HEADER-BG);
