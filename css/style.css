@@ -358,6 +358,15 @@ h2 {
 }
 
 
+/* | Footer Social Media */
+.footer__social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    /* max-width: 50%; */
+    margin-bottom:var(--MARGIN-TB);
+}
 
 @media screen and (max-width:586px) {
 
