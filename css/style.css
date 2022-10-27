@@ -149,6 +149,7 @@ h2 {
 
 .hero__greeting {
     margin: var(--MARGIN-TB) 0;
+    margin-bottom: 0.5em;
     color: var(--HEADER-COLOR);
     text-shadow: 2px 4px 5px var(--BORDER-COLOR);
     text-align: center;
@@ -359,13 +360,16 @@ h2 {
 
 
 /* | Footer Social Media */
-.footer__social-media{
+.footer__social-media, .hero__social-media{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    /* max-width: 50%; */
     margin-bottom:var(--MARGIN-TB);
+}
+
+:is(.footer__social-media a, .hero__social-media a):hover{
+    cursor: default;
 }
 
 @media screen and (max-width:586px) {
