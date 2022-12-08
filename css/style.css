@@ -52,7 +52,7 @@ h2 {
 
 /* Variables */
 :root {
-    --FS: clamp(1.25rem, 2vh, 1.75rem);
+    --FS: clamp(1.2rem, 2vh, 1.7rem);
     --FS-Header: clamp(1.5rem, 2.5vh, 2rem);
     --HEADER-BG: #000;
     --HEADER-COLOR: #FFF;
@@ -147,6 +147,26 @@ h2 {
     gap: 1rem;
 }
 
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.hero__container a[type='download'] {
+    padding: 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--HEADER-COLOR);
+    color: var(--HEADER-BG);
+}
+
+.hero__container a[type='download']:hover{
+    color: white;
+    background-color: transparent;
+}
+
 .hero__greeting {
     margin: var(--MARGIN-TB) 0;
     margin-bottom: 0.5em;
@@ -199,14 +219,6 @@ h2 {
     width: 40%;
 }
 
-.about__text a {
-    text-decoration: none;
-    margin-top: 3rem;
-    padding: 1rem 2rem;
-    border-radius: 10px;
-    background-color: var(--HEADER-BG);
-    color: var(--HEADER-COLOR);
-}
 
 
 .about__section img {
@@ -290,14 +302,6 @@ h2 {
 
 .card__button {
     margin: var(--MARGIN-TB) var(--MARGIN-LR);
-}
-
-.card__button a {
-    padding: 0.5em;
-    border-radius: 10px;
-    text-decoration: none;
-    background-color: var(--HEADER-BG);
-    color: var(--HEADER-COLOR);
 }
 
 /* || contact */
@@ -394,7 +398,6 @@ h2 {
     .projects__card {
         min-width: 250px;
     }
-
 }
 
 
@@ -503,3 +506,5 @@ h2 {
         transform: scaleY(1);
     }
 }
+
+/* make the hero_container flex that will solve the issue */
