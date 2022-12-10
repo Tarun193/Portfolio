@@ -277,10 +277,10 @@ h2 {
 }
 
 .projects__card {
-    min-width: 350px;
+    min-width: 330px;
     max-width: 350px;
     display: flex;
-    flex: 1 0 21%;
+    flex: 1 0 15%;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
@@ -297,13 +297,27 @@ h2 {
 
 .card__text {
     line-height: 1.3;
-    min-height: 250px;
+    min-height: 280px;
 }
 
 .card__button {
     margin: var(--MARGIN-TB) var(--MARGIN-LR);
 }
 
+.card__button a{
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0.35em;
+}
+
+.card__button a:hover{
+    color: var(--HEADER-BG);
+    background-color: transparent;
+}
 /* || contact */
 .contact{
     scroll-margin-top: 8rem;
